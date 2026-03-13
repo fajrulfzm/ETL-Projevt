@@ -27,7 +27,7 @@ def transform_data(extracted_data):
             
         df['Rating'] = df['Rating'].apply(clean_rating)
         
-        df['Colors'] = df['Colors'].str.extract(r'(\d+)').fillna(0).astype(int)
+        df['Colors'] = df['Colors'].str.extract(r'(\d+)').fillna(0).astype('int64')
         df['Size'] = df['Size'].str.replace('Size:', '', regex=False).str.strip()
         df['Gender'] = df['Gender'].str.replace('Gender:', '', regex=False).str.strip()
         
