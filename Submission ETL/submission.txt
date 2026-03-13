@@ -1,0 +1,20 @@
+======================================================
+INFORMASI SUBMISSION ETL PIPELINE
+Nama: Fajrul Falaq Z. Malangke
+======================================================
+
+1. Cara menjalankan script ETL Pipeline:
+Silakan buka terminal, pastikan berada di dalam direktori proyek, dan jalankan perintah berikut:
+python3 main.py
+
+2. Cara menjalankan Unit Test:
+Untuk menjalankan pengujian unit test, silakan gunakan perintah berikut di terminal:
+python3 -m pytest tests/
+
+3. Cara menjalankan Test Coverage:
+Untuk melihat persentase test coverage dari modul utils, silakan jalankan perintah berikut:
+python3 -m pytest --cov=utils tests/
+
+4. URL Google Sheets (Kriteria Lanjutan/Advanced):
+Berikut adalah tautan Google Sheets yang telah diatur hak aksesnya menjadi "Anyone with the link" (Editor) dan akan terisi secara otomatis saat ETL dijalankan:
+https://docs.google.com/spreadsheets/d/19yZxEqLe36OmyfpFvqIc1aWffsnycS4MHqkB604AndE/edit?usp=sharing
