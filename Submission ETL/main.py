@@ -31,7 +31,7 @@ def run_etl():
             
             # c. Simpan ke Google Sheets
             CREDENTIALS_FILE = 'google-sheets-api.json'
-            SPREADSHEET_ID = '19yZxEqLe36OmyfpFvqIc1aWffsnycS4MHqkB604AndE' 
+            SPREADSHEET_ID = '19yZxEqLe36OmyfpFvqIc1aWffsnycS4MHqkB604And' 
             load_to_gsheets(clean_df, CREDENTIALS_FILE, SPREADSHEET_ID)
             
             print("\n=== ETL Pipeline Selesai ===")
